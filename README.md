@@ -103,14 +103,22 @@ The firmware is configured with the following pin connections:
 6.  Place the robot at the starting cell (0,0). The robot will wait for 4 seconds before starting its run.
 
 ## Algorithm Explained
+![vid](src/helle.gif)
 
 This project uses the **Flood Fill Algorithm** to navigate the maze.
 
-1.  **Initialization**: The maze is represented as a 2D grid. Each cell is assigned a distance value, initially calculated using Manhattan distance to the goal. The goal cell has a distance of 0.
-2.  **Exploration**: The robot moves from cell to cell. At each cell, it uses its IR sensors to detect walls to its front, left, and right. This wall information is stored in a 3D array (`wall[x][y][direction]`).
-3.  **Recalculation (Flood Fill)**: After updating the wall map, the algorithm recalculates the distance values for all cells. The distance of a cell is set to `1 + minimum distance of its accessible neighbors`. This process repeats until the distance values stabilize.
-4.  **Movement**: To decide its next move, the robot checks its accessible neighboring cells and always moves to the one with the lowest distance value.
-5.  **Goal**: This process continues until the robot reaches the target cell (where distance is 0).
+The **Flood Fill Algorithm** is used to determine the shortest path from any cell in the maze to the goal.
+
+1. **Set the Goal Cell** The target cell is assigned a distance value of `0` and added to a queue.
+2. **Propagate Distances** Starting from the goal, the algorithm expands outward to all reachable neighboring cells. Each neighboring cell receives a value that is one greater than the current cell ($+1$).
+3. **Continue Filling** This process repeats until every accessible cell in the maze has been assigned a distance value representing its minimum number of moves to reach the goal.
+4. **Update with New Walls** As the robot explores and discovers walls, the distance map is recalculated to account for blocked paths and ensure the values remain accurate.
+5. **Choose the Next Move** At each step, the robot compares the distance values of its accessible neighboring cells and moves to the one with the lowest value.
+
+---
+
+> 💡 **Key Principle:** Since the distance values decrease as the robot approaches the goal, continuously moving to the lowest-valued neighboring cell guarantees progress toward the shortest known path.
+
 
 ## License
 
