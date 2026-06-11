@@ -33,7 +33,8 @@
 ## How to Use
 
 ### 1.Simulation
-![solved maze](src/rol.gif) ![vid](src/helle.gif)
+![solved maze](src/role.jpg) ![vid](src/helle.gif)
+
 The simulation allows you to create a maze and visualize how the flood-fill algorithm solves it.
 
 **Prerequisites:**
