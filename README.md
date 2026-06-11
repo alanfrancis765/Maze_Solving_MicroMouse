@@ -119,6 +119,25 @@ The **Flood Fill Algorithm** is used to determine the shortest path from any cel
 
 > 💡 **Key Principle:** Since the distance values decrease as the robot approaches the goal, continuously moving to the lowest-valued neighboring cell guarantees progress toward the shortest known path.
 
+---
+
+---
+
+## 🤝 Let's Collaborate!
+
+Thank you for checking out this project! Whether you want to report a bug, suggest an optimization for the maze-solving logic, or just talk about robotics and AI, contributions and discussions are always welcome.
+
+### 🚀 How to Get Involved
+* **Report Issues:** Open an issue if you spot a bug or an edge-case wall layout that breaks the flood fill.
+* **Pull Requests:** Feel free to fork the repository, optimize the algorithm, and submit a PR.
+* **Feedback:** Drop your thoughts or suggestions in the discussions tab.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by Alan Francis</b><br>
+  📬 Reach out at <a href="mailto:alanfrancis347@gmail.com">alanfrancis347@gmail.com</a>
+</p>
 
 ## License
 
