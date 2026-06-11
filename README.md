@@ -121,8 +121,6 @@ The **Flood Fill Algorithm** is used to determine the shortest path from any cel
 
 ---
 
----
-
 ## 🤝 Let's Collaborate!
 
 Thank you for checking out this project! Whether you want to report a bug, suggest an optimization for the maze-solving logic, or just talk about robotics and AI, contributions and discussions are always welcome.
