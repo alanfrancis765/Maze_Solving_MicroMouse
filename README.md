@@ -139,6 +139,3 @@ Thank you for checking out this project! Whether you want to report a bug, sugge
   📬 Reach out at <a href="mailto:alanfrancis347@gmail.com">alanfrancis347@gmail.com</a>
 </p>
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
