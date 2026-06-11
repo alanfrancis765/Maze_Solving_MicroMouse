@@ -65,7 +65,7 @@ pip install -r requirements.txt
 <p align="center">
   <img src="src/micro1.jpeg" width="32%" />
   <img src="src/micro2.jpeg" width="32%" /> 
-  <img src="src/micro3.jpeg" width="32%" />
+  <img src="src/micro4.jpeg" width="32%" />
 </p>
 
 The `Maze_solving_code.ino` file is designed to be uploaded to an Arduino-compatible microcontroller controlling the Micromouse.
