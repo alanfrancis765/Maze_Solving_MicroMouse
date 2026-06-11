@@ -32,8 +32,8 @@
 
 ## How to Use
 
-### Simulation
-
+### 1.Simulation
+![solved maze](src/rol.gif) ![vid](src/helle.gif)
 The simulation allows you to create a maze and visualize how the flood-fill algorithm solves it.
 
 **Prerequisites:**
@@ -43,7 +43,7 @@ The simulation allows you to create a maze and visualize how the flood-fill algo
 
 Install dependencies:
 ```bash
-pip install numpy matplotlib
+pip install -r requirements.txt
 ```
 
 **Steps:**
@@ -59,7 +59,7 @@ pip install numpy matplotlib
     ```
     This will display a window showing the maze, the calculated distance values for each cell from the goal, and the shortest path highlighted in green.
 
-### Hardware (Micromouse Robot)
+### 2.Hardware (Micromouse Robot)
 
 The `Maze_solving_code.ino` file is designed to be uploaded to an Arduino-compatible microcontroller controlling the Micromouse.
 
