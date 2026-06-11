@@ -28,7 +28,8 @@
 ├── Stimulation/
 │   ├── Customized_maze.py      # Interactive script to create custom mazes
 │   ├── Solver_code.py          # Simulates the flood-fill algorithm and visualizes the path
-│   └── Sample_Coordinates.py   # An example output file from the maze generator
+│   ├── Sample_Coordinates.py
+|   └── requirement.txt    # An example output file from the maze generator
 └── LICENSE                     # MIT License
 ```
 
