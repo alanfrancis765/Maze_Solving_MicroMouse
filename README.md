@@ -1,7 +1,7 @@
 # **Maze Solving MicroMouse**
 ![maze](src/holo.gif)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ***Maze Solving MicroMouse*** is a complete hardware and software project focused on the design, simulation, and implementation of an autonomous maze-solving robot. This repository includes Arduino-based firmware for the physical Micromouse and a Python simulation environment for maze creation, algorithm testing, and path visualization.
 
