@@ -62,6 +62,16 @@ pip install -r requirements.txt
 
 ### 2.Hardware (Micromouse Robot)
 
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="src/micro1.jpeg" width="200" alt="Image 1"></td>
+      <td><img src="src/micro2.jpeg" width="200" alt="Image 2"></td>
+      <td><img src="src/micro3.jpeg" width="200" alt="Image 3"></td>
+    </tr>
+  </table>
+</div>
+
 The `Maze_solving_code.ino` file is designed to be uploaded to an Arduino-compatible microcontroller controlling the Micromouse.
 
 **Hardware Components:**
