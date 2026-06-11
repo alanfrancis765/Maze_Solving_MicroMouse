@@ -19,6 +19,8 @@
 ## Repository Structure
 
 ```
+├── Doc/
+│   └── Doc/MicroMouse010_io (last_draft).pdf # Certified Documentation of the project
 ├── MicroMouseCode/
 │   └── Maze_solving_code.ino   # Arduino firmware for the robot
 ├── Stimulation/
