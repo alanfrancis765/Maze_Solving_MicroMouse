@@ -1,17 +1,20 @@
 # **Maze Solving MicroMouse**
 ![maze](src/holo.gif)
 
-This repository contains the complete hardware and software implementation for a maze-solving Micromouse robot. The project includes Arduino firmware for the robot and a Python-based simulation environment to design mazes and visualize the solving algorithm.
-
-The core of the project is the Flood Fill algorithm, which enables the robot to explore, map, and find the shortest path through an unknown maze to a central target.
+***Maze Solving MicroMouse*** is a complete hardware and software project focused on the design, simulation, and implementation of an autonomous maze-solving robot. This repository includes Arduino-based firmware for the physical Micromouse and a Python simulation environment for maze creation, algorithm testing, and path visualization.
 
 ## Features
 
-- **Flood Fill Algorithm**: Implements the flood fill algorithm for efficient maze solving and pathfinding.
-- **Arduino Firmware**: The `Maze_solving_code.ino` file contains the complete logic for the physical robot, including sensor reading, motor control, and algorithm execution.
-- **Python Simulation**: A simulation environment built with Matplotlib and NumPy to test the algorithm.
-- **Custom Maze Generator**: An interactive tool (`Customized_maze.py`) to draw, create, and save custom maze layouts.
-- **Path Visualization**: The solver script (`Solver_code.py`) visualizes the flood fill distance values and the optimal path found from start to goal.
+- **Autonomous Maze Solving**: Navigates unknown mazes by detecting walls, building an internal map, and determining the most efficient route to the target.
+
+- **Flood Fill Pathfinding Algorithm**: Utilizes the Flood Fill algorithm to calculate distance values, explore the maze intelligently, and identify the shortest path to the goal.
+
+- **Arduino-Based Robot Control**: Includes complete firmware for the physical Micromouse robot, handling sensor integration, motor control, maze mapping, and real-time decision-making.
+
+- **Python Simulation Environment**: Provides a simulation platform built with NumPy and Matplotlib for algorithm development, testing, and performance evaluation before deployment to hardware.
+
+- **Hardware and Software Integration**: Demonstrates the complete workflow from simulation and algorithm validation to deployment on a physical autonomous robot.
+
 
 ## Repository Structure
 
