@@ -1,5 +1,5 @@
 # Maze_Solving_MicroMouse
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/alanfrancis765/Maze_Solving_MicroMouse)
+![maze](src/holo.gif)
 
 This repository contains the complete hardware and software implementation for a maze-solving Micromouse robot. The project includes Arduino firmware for the robot and a Python-based simulation environment to design mazes and visualize the solving algorithm.
 
